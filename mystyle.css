@@ -1,0 +1,138 @@
+
+    body{
+    margin:0;
+    font-family: sans-serif;
+
+    }
+    header,footer,aside{
+        display: block;
+
+    }
+    h1{
+        color:#4d362e;
+        text-align: center;
+        font-size: 24px;
+        font-weight: lighter;
+    }
+    label{
+        width: 450px;
+        display: block;
+    }
+    input{
+        width: 200px;
+        margin-top: 5px ;
+    }
+    table{
+        width:460px;
+        border-collapse: collapse;
+
+    }
+    th{
+        background: firebrick;
+
+    }
+    th,td{
+        border: 2px solid silver;
+        padding: 10px;
+
+
+    }
+    .container{
+        text-align: left;
+        width:500px;
+        margin: 0 auto;
+
+    }
+
+    .leftbar{
+        width: 480px;
+        background: ivory;
+        min-height: 400px;
+        margin-top: 30px;
+    }
+
+    .rightbar{
+        width: 460px;
+        background: ivory;
+        min-height: 130px;
+        padding: 10px ;
+
+        margin: 0 0 22px 0;
+    }
+
+    input:invalid {
+        border: 2px solid red;
+    }
+
+    input:valid {
+        border: 2px solid saddlebrown;
+    }
+
+    .file_button{
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 30px;
+        background-color: #94090d;
+        color: white;
+        margin: -10px 10px 2px 20px;
+    }
+    button
+    {
+       font-size: 14px;
+        padding: 5px;
+        border-radius: 2px;
+        background: #94090d;
+        color: white;
+        width: 100px;
+    }
+    .containertwo {
+        margin-top: -20px;
+        width:95%;
+    }
+    .title{
+        margin-top: 20px;
+        margin-bottom:20px;
+    }
+    .single-news{
+        background-color: whitesmoke;
+        padding:30px;
+        margin-bottom: 20px;
+        margin-top:20px;
+    }
+
+    .prokrutka {
+        height: 430px; /* высота нашего блока */
+        width: 450px; /* ширина нашего блока */
+        background: #fff; /* цвет фона, белый */
+        border: 1px solid #C1C1C1; /* размер и цвет границы блока */
+        overflow-y: scroll; /* прокрутка по вертикали */
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin: 1em auto 2em;
+
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .block{
+        margin-bottom: 30px ;
+
+    }
+    .block{
+        margin-top:50px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 480px;
+        border: 2px solid white;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .btn-primary{
+        color: #94090d;
+    }
