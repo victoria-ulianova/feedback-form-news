@@ -1,0 +1,99 @@
+/* large devices, wide screens */
+@media only screen and (max-width: 1200px){
+
+}
+/* medium devices, desktop */
+@media only screen and (max-width: 992px){
+    .container{
+        width:335px;
+        height: 200px;
+        display: contents;
+    }
+    .leftbar{
+        width:315px;
+    }
+    .rightbar{
+        width: 295px;
+    }
+    .labelwidth{
+        width: 200px;
+    }
+    .form__item{
+        width: 200px;
+    }
+    .h1{
+        width: 335px;
+    }
+    .table{
+        width: 315px;
+    }
+    .regtable{
+        width: 198px;
+    }
+    th{
+        font-size: 11px;
+    }
+    .prokrutka{
+        width: 350px;
+    }
+    .block{
+        margin-left: 290px;
+    }
+
+}
+
+/* small devices, tablets */
+@media only screen and (max-width: 768px){
+    .container{
+        width:335px;
+        height: 200px;
+        display: contents;
+    }
+    .leftbar{
+        width:250px;
+        margin-top:-20px;
+        height:300px;
+    }
+    .rightbar{
+        width: 230px;
+    }
+    .labelwidth{
+        width: 200px;
+    }
+    .form__item{
+        width: 200px;
+    }
+    .h1{
+        width: 335px;
+    }
+    .table{
+        width: 315px;
+    }
+    .regtable{
+        width: 198px;
+    }
+    th{
+        font-size: 8px;
+    }
+    th,td {
+        padding: 3px;
+    }
+    .prokrutka{
+        width: 250px;
+        margin-left:245px;
+        height:260px;
+    }
+    .block{
+        margin-left: 230px;
+    }
+
+}
+/* extra small devices, tablets */
+@media only screen and (max-width: 480px){
+
+}
+/* custom, iphone retina */
+@media only screen and (max-width: 320px){
+
+}
+
